@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Projects = () => (
-    <>
-        <p>Projects</p>
-    </>
+    <div id="projects">
+        <h3>Projects</h3>
+    </div>
 )
 
 export default Projects;

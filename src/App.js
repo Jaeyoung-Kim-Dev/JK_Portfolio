@@ -6,12 +6,14 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import NavBar from "./NavBar";
 
 
 function App() {
     return (
         <Container className="App">
-            <Intro/>
+            <NavBar/>
+            <Intro id="home"/>
             <AboutMe/>
             <Skills/>
             <Projects/>

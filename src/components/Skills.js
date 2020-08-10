@@ -45,7 +45,7 @@ const Skills = () => {
     }, []);
 
     return (
-        <>
+        <div id="skills">
             <h3>Skills</h3>
             <h4>What I am confident</h4>
             <Row>
@@ -77,9 +77,9 @@ const Skills = () => {
 
 
             <h4>What I learned</h4>
-            <h5>haha</h5>
+
             <h4>What I want to learn soon</h4>
-        </>
+        </div>
     )
 }
 
