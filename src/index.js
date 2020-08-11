@@ -8,6 +8,7 @@ import 'jquery/dist/jquery';
 import 'popper.js/dist/umd/popper';
 import './index.css';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
