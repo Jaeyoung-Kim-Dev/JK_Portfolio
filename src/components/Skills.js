@@ -24,15 +24,15 @@ const Skills = () => {
 
     return (
         <div id="skills" className="MyMargin">
-            <h3>Skills</h3>
+            <h3 className="SectionTitle">Skills</h3>
 
-            <h4>What I am confident</h4>
+            <h4 className="SubSectionTitle">What I am confident</h4>
             <ListSkills skills={confident}/>
 
-            <h4>What I learned</h4>
+            <h4 className="SubSectionTitle">What I learned</h4>
             <ListSkills skills={learned}/>
 
-            <h4>What I want to learn soon</h4>
+            <h4 className="SubSectionTitle">What I want to learn soon</h4>
             <ListSkills skills={wantToLearn}/>
         </div>
     )

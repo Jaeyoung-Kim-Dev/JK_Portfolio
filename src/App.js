@@ -8,17 +8,18 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import NavBar from "./NavBar";
 
-
 function App() {
     return (
-        <Container className="App">
+        <>
             <NavBar/>
-            <Intro id="home"/>
-            <AboutMe/>
-            <Skills/>
-            <Projects/>
-            <Contact/>
-        </Container>
+            <Container className="App">
+                <Intro/>
+                <AboutMe/>
+                <Skills/>
+                <Projects/>
+                <Contact/>
+            </Container>
+        </>
     );
 }
 

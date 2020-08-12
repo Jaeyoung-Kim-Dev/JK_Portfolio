@@ -10,7 +10,7 @@ import {
 
 const Contact = () => (
     <div id="contact">
-        <h3>Contact</h3>
+        <h3 className="SectionTitle">Contact</h3>
         <Form action="mailto:jaeyoung.kim.dev@gmail.com" method="get" enctype="text/plain">
             <Button type="submit">Get in touch</Button>
         </Form>

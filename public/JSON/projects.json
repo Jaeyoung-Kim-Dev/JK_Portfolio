@@ -1,16 +1,18 @@
 [
   {
     "name": "Chat with Titanic",
+    "pic": "chatwithtitanic.jpg",
     "desc": "You can select a person and chat with people from my favourite movie Titanic.\nMultiple users can access this application and talk to each other in realtime.",
-    "lang": "Node.JS  Express  Socket.IO  jQuery  Bootstrap",
+    "lang": "Node.JS | Express | Socket.IO | jQuery | Bootstrap",
     "git": "https://github.com/Jaeyoung-Kim-Dev/chatwithtitanic",
     "link": "http://ec2-3-136-83-195.us-east-2.compute.amazonaws.com/"
   },
   {
     "name": "JK Sports Club",
+    "pic": "jksportsclub.jpg",
     "desc": "This..",
-    "lang": "React  Node.JS  Express  Bootstrap",
-    "git": "https://github.com/Jaeyoung-Kim-Dev/chatwithtitanic",
+    "lang": "React | Node.JS | Express | Bootstrap",
+    "git": "https://github.com/Jaeyoung-Kim-Dev/jksportsclub",
     "link": "http://ec2-3-136-83-195.us-east-2.compute.amazonaws.com/"
   }
 ]

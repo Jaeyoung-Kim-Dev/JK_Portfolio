@@ -2,16 +2,17 @@ import React from 'react';
 import {
     Image,
     Row,
-    Col
+    Col,
+    Card
 } from "react-bootstrap";
 
 const AboutMe = () => (
     <div id="aboutme" className="MyMargin">
-        <h3>About Me</h3>
+        <h3 className="SectionTitle">About Me</h3>
         <Row>
-            <Col xs={12} md={4}>
-                <a href={"https://github.com/Jaeyoung-Kim-Dev"}>
-                    <Image src={require("../photos/me.jpeg")} fluid thumbnail style={{maxWidth: 200}}/>
+            <Col xs={6} md={4} >
+                <a href={"https://github.com/Jaeyoung-Kim-Dev"} >
+                    <Image src={require("../photos/me.jpg")} thumbnail fluid="true"/>
                 </a>
             </Col>
             <Col xs={12} md={8}>
@@ -24,9 +25,7 @@ const AboutMe = () => (
                 <p>I will learn and master all programing languages as much as I can in the college, and I will be a
                     great software developer! </p>
             </Col>
-
         </Row>
-
     </div>
 )
 
