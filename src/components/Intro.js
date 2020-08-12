@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Form} from "react-bootstrap";
+import {Button, Form, Image} from "react-bootstrap";
 
 const Intro = () => (
     <div id="intro" className="MyMargin">

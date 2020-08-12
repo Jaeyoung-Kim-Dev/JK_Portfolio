@@ -6,7 +6,7 @@ import React from "react";
 const listSkills = ({skills}) => (
     <Row>
         {skills.map((skill, key) => (
-            <Col xl={12} md={6} lg={4} key={key}>
+            <Col sm={12} md={6} lg={4} key={key}>
                 <Accordion>
                     <Card bg="dark">
                         <Card.Header>

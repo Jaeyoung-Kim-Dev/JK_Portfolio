@@ -3,7 +3,7 @@ import {
     Navbar,
     Nav,
     Form,
-    Button
+    Button, Image
 } from "react-bootstrap";
 
 const NavBar = _ => (
@@ -12,7 +12,7 @@ const NavBar = _ => (
             <Navbar.Brand href="#intro">Jaeyoung Kim</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="ml-auto">
                     <Nav.Link href="#aboutme">About Me</Nav.Link>
                     <Nav.Link href="#skills">Skills</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
