@@ -23,7 +23,7 @@ const Skills = () => {
     }, []);
 
     return (
-        <div id="skills" className="MyMargin">
+        <div>
             <h3 className="SectionTitle">Skills</h3>
 
             <h4 className="SubSectionTitle">What I am confident</h4>
