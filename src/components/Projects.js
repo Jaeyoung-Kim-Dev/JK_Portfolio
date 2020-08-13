@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Card, Col, Row} from "react-bootstrap";
 import {FaExternalLinkAlt, FaGithub} from "react-icons/fa/index";
 import styled from "@emotion/styled/macro";
+import {animateScroll, Element} from 'react-scroll'
 
 const Projects = () => {
     const [myProjects, setMyProjects] = useState([]);
@@ -19,10 +20,10 @@ const Projects = () => {
 
     const DisplayOver = styled.div({
         height: "100%",
-        left: "0",
-        position: "absolute",
-        top: "0",
         width: "100%",
+        position: "absolute",
+        left: "0",
+        top: "0",
         zIndex: 2,
         transition: "background-color 350ms ease",
         backgroundColor: "transparent",
@@ -35,13 +36,13 @@ const Projects = () => {
         fontFamily: "Helvetica",
     });
 
-    const SubTitle = styled.p({
+    const SubTitle = styled.div({
         fontFamily: "Helvetica",
         transform: "translate3d(0,50px,0)",
         transition: "transform 350ms ease",
     });
 
-    const Paragraph = styled.p({
+    const Paragraph = styled.div({
         transform: "translate3d(0,50px,0)",
         transition: "transform 350ms ease",
         color:"gold"
@@ -52,7 +53,6 @@ const Projects = () => {
         backgroundRepeat: "no-repeat",
         color: "#FFF",
         cursor: "pointer",
-        backgroundImage: "url(/bg.jpg)",
         [`:hover ${DisplayOver}`]: {
             backgroundColor: "rgba(0,0,0,.9)",
         },
@@ -68,11 +68,10 @@ const Projects = () => {
         position: "absolute",
         bottom: "20px",
         left: "50px",
-        size: "20px"
     });
 
     return (
-        <div id="projects" className="MyMargin">
+        <div>
             <h3 className="SectionTitle">Projects</h3>
             <Row>
                 {myProjects.map((project, key) => (
@@ -90,6 +89,7 @@ const Projects = () => {
                                                     {project.desc}
                                                 </Card.Text>
                                             </SubTitle>
+                                            <br/>
                                             <Paragraph>
                                                 <Card.Text>
                                                     {project.lang}

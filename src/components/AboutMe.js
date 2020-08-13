@@ -7,7 +7,7 @@ import {
 } from "react-bootstrap";
 
 const AboutMe = () => (
-    <div id="aboutme" className="MyMargin">
+    <div id="aboutme">
         <h3 className="SectionTitle">About Me</h3>
         <Row>
             <Col xs={6} md={4} >

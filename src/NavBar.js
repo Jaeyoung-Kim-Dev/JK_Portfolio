@@ -1,17 +1,13 @@
 import React from 'react';
-import {
-    Navbar,
-    Nav,
-    Form,
-    Button, Image
-} from "react-bootstrap";
+import {Button, Form, Nav, Navbar} from "react-bootstrap";
 
-const NavBar = _ => (
-    <>
-        <Navbar expand="md" bg="dark" variant="dark" sticky="top" collapseOnSelect="false">
+const NavBar = _ => {
+
+    return (
+        <Navbar expand="md" bg="dark" variant="dark" fixed="top" collapseOnSelect="false">
             <Navbar.Brand href="#intro">Jaeyoung Kim</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="ml-auto">
                     <Nav.Link href="#aboutme">About Me</Nav.Link>
                     <Nav.Link href="#skills">Skills</Nav.Link>
@@ -23,7 +19,8 @@ const NavBar = _ => (
                 </Form>
             </Navbar.Collapse>
         </Navbar>
-    </>
-)
+    )
+}
 
 export default NavBar;
+

@@ -6,9 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #282c34;
-
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 main {
   overflow-y: scroll;
