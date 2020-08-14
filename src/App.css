@@ -16,14 +16,3 @@
   text-align: center;
   margin: 30px 10px 10px;
 }
-
-.div-centered {
-  text-align: left;
-  max-width: 450px;
-}
-
-.scrollPoint {
-  height: 10px;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
