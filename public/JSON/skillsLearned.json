@@ -1,26 +1,38 @@
 [
     {
         "lang":"MongoDB",
-        "detail":""
+        "detail":"Document-oriented(JSON) database and NoSQL. Most of my personal projects are built by MongoDB.",
+        "icon":"mongodb-original-wordmark"
     },
     {
-        "lang":"OracleSQL",
-        "detail":""
+        "lang":"Oracle DBMS",
+        "detail":"Learned from how to design database to how to use it from the college. I got \"A+\". Also, I have basic knowledge of MySQL.",
+        "icon":"oracle-original"
     },
     {
-        "lang":"Network",
-        "detail":"data, packit delivery. IP system, oracle commands"
+        "lang":"Git",
+        "detail":"Designed for coordinating work among programmers, but it can be used to track changes in any set of files. Used it for all of my personal projects.",
+        "icon":"github-original-wordmark"
     },
     {
-        "lang":"Linux",
-        "detail":"Basic command. I also use it in macOS terminal for NPM, Git and manage folder and file\n"
+        "lang":"AWS",
+        "detail":"",
+        "icon":"amazonwebservices-original-wordmark"
     },
     {
-        "lang":"PowerShell",
-        "detail":""
+        "lang":"Linux/Powershell",
+        "detail":"Learned basic commands from the college. I also use it in 'macOS Terminal'/'Windows Command Prompt' for NPM, Git and manage folder and file.",
+        "icon":"linux-original"
     },
     {
-        "lang":"H/W",
-        "detail":"I was senior"
+        "lang":"C",
+        "detail":"This is my first programing language to understand data type, function and class. I've done a 600 pages book about C to understand 'pointer'.",
+        "icon":"c-line"
+    },
+    {
+        "lang":"Hardware/Network",
+        "detail":"I was a senior computer service technician. I also learned how the networking system works from the college. I'm running a NAS(Network-attached storage) at home for 7 years, so I'm pretty knowledgeable in these.",
+        "icon":"computer-pc-svgrepo-com"
     }
 ]
+

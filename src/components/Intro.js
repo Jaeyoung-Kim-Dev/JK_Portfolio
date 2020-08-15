@@ -1,20 +1,33 @@
 import React from 'react';
 import styled from "@emotion/styled/macro";
-import ScaleBackground from "../effects/ScaleBackground";
 import {Button} from "react-bootstrap";
+import {FaCanadianMapleLeaf, FaSmileWink, FaHandPointLeft} from "react-icons/fa";
+import {GiHand} from "react-icons/gi";
 
 const Intro = () => {
 
-    const Orange = styled.span`color: orange;`
-    const White = styled.span``
-    const Gold = styled.span`color: gold;`
-    const Green = styled.span`color: lightgreen;`
-    const Form = styled.form`text-align: center;`
 
-    const DivCentered = styled.div`
-        font-size: 30px;
-        text-align: left;
-        max-width: 450px;
+
+    const Form = styled.div`text-align: center;`
+    const White = styled.span`font-size: 30px;`
+    const Gold = styled.span`color: gold;
+    font-size: 30px;
+    `
+
+    const Green = styled.span`color: lightgreen;`
+    const Orange = styled.span`color: orange;`
+
+    const Highlight = styled.span`
+        font-size: 40px; 
+        background-color: #2C4969;
+        padding: 15px;
+        border-radius: 15px;               
+    `
+
+    const Div = styled.div`        
+        font-size: 20px;    
+        max-width: 600px;            
+        margin: 0 auto;
     `
 
     /*const Email = styled.a`
@@ -26,41 +39,57 @@ const Intro = () => {
     `*/
 
     return (
-        <>
-            <DivCentered>
+        <div>
+            <Div>
+                <Orange>import </Orange>
+                <White>Hi <GiHand/> </White>
+                <Orange>from </Orange>
+                <White>Calgary <FaCanadianMapleLeaf/></White>
+                <br/><br/><br/>
+
                 <Orange>const </Orange>
                 <Gold>My_Name</Gold>
-                <White> = 'Jaeyoung Kim'</White>
-                <Orange>;</Orange>
+                <White> = </White>
+                <br/><br/>
+                <Form>
+                    <Highlight>Jaeyoung Kim</Highlight>
+                </Form>
 
                 <br/><br/>
 
-                <p>I'm a full-stack web developer.</p>
-                <p>......</p>
+                <Orange>const </Orange>
+                <Gold>I_Build </Gold>
+                <White>=</White>
+                <br/><br/>
+                <Form>
+                    <Highlight>WEBSITES</Highlight>
+                </Form>
 
-                <br/>
+                <br/><br/>
 
+                <div style={{textAlign: "right"}}>
                 <Orange>if </Orange>
-                <White>(you_are_hiring)</White>
+                ( You_are_HIRING )
 
                 <br/>
 
-                <Orange> let </Orange>
+                <Orange>let </Orange>
                 <Gold>Me </Gold>
-                <White>= require('</White>
-                <Green>Job</Green>
-                <White>')</White>
-                <Orange>;</Orange>
-
-                <br/><br/>
-            </DivCentered>
+                = require
+                <Gold> (JOB) </Gold>
+                <White><FaSmileWink/></White>
+                </div>
+                <br/>
+            </Div>
             <Form>
-                <Button href="mailto:jaeyoung.kim.dev@gmail.com?subject=Mail from Jaeyoung's Website&body=Hello, Jaeyoung!" style={{margin: 40}}>Get in touch</Button>
+                <Button
+                    href="mailto:jaeyoung.kim.dev@gmail.com?subject=Mail from Jaeyoung's Website&body=Hello, Jaeyoung!"
+                    style={{margin: 40}}>Get in touch <FaHandPointLeft/></Button>
             </Form>
             {/*<ScaleBackground color="deeppink" transitionDuration="350ms ease" style={{ textAlign: "center"}}>
             <Email href="mailto:jaeyoung.kim.dev@gmail.com?subject=Mail from Jaeyoung's Website&body=Hello, Jaeyoung!">Get in touch</Email>
             </ScaleBackground>*/}
-        </>
+        </div>
     )
 }
 

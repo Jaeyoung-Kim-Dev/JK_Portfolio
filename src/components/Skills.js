@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {BsFillPlusCircleFill} from "react-icons/bs";
-import {FaReact} from "react-icons/fa";
+import styled from "@emotion/styled";
 import ListSkills from "./ListSkills";
 
 const Skills = () => {
@@ -8,7 +7,11 @@ const Skills = () => {
     const [learned, setLearned] = useState([]);
     const [wantToLearn, setWantToLearn] = useState([]);
 
-    const reactIcon = FaReact;
+    const SubTitle = styled.h4`        
+        margin: 20px;
+        color: gold;   
+    `;
+
 
     useEffect(() => {
         fetch('./JSON/skillsConfident.json')
@@ -26,13 +29,13 @@ const Skills = () => {
         <div>
             <h3 className="SectionTitle">Skills</h3>
 
-            <h4 className="SubSectionTitle">What I am confident</h4>
+            <SubTitle>What I am confident in:</SubTitle>
             <ListSkills skills={confident}/>
 
-            <h4 className="SubSectionTitle">What I learned</h4>
+            <SubTitle>What I learned:</SubTitle>
             <ListSkills skills={learned}/>
 
-            <h4 className="SubSectionTitle">What I want to learn soon</h4>
+            <SubTitle>What I want to learn soon:</SubTitle>
             <ListSkills skills={wantToLearn}/>
         </div>
     )

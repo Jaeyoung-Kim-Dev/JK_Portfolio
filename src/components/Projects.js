@@ -72,21 +72,24 @@ const Projects = () => {
         };
     `
 
+    const ProjectName = styled.h5`
+        text-align: center;
+        margin: 20px;
+    `
+
     return (
         <div>
             <h3 className="SectionTitle">Projects</h3>
             <Row>
                 {myProjects.map((project, key) => (
                     <Col xs={12} md={6} key={key}>
-                        <h4 className="SubSectionTitle">{project.name}</h4>
-
-                        <Card>
+                        <Card style={{backgroundColor: "#1f324c", marginBottom: "25px"}}>
+                            <ProjectName>{project.name}</ProjectName>
                             <Card.Img variant="top" src={require(`../photos/${project.pic}`)} fluid="true"/>
                             <Background>
                                 <DisplayOver>
                                     <Hover>
                                         <Card.Body>
-                                            {/*<BigTitle>{project.name}</BigTitle>*/}
                                             <SubTitle>
                                                 <Card.Text>
                                                     {project.desc}
@@ -98,11 +101,13 @@ const Projects = () => {
                                                     {project.lang}
                                                 </Card.Text>
                                             </Paragraph>
+                                        </Card.Body>
+                                        <Card.Footer>
                                             <LinkIcons>
                                                 <Card.Link href={`${project.git}`}><FaGithub/></Card.Link>
                                                 <Card.Link href={`${project.link}`}><FaExternalLinkAlt/></Card.Link>
                                             </LinkIcons>
-                                        </Card.Body>
+                                        </Card.Footer>
                                     </Hover>
                                 </DisplayOver>
                             </Background>
