@@ -14,22 +14,23 @@ import FadeIn from "./effects/FadeIn";
 
 function App() {
 
+    const Gap = styled.div`margin: 100px;`
     const ScrollPoint = styled.div`
         height: 10px;
-        margin-top: 100px;
-        margin-bottom: 50px;
+        margin: 50px;        
     `
 
     return (
         <>
             <NavBar/>
             <Container className="App">
-                <div id="intro"><br/></div>
+                <div id="intro"></div>
                 <ScrollPoint/>
                 <FadeIn>
                     <Intro/>
                 </FadeIn>
                 <ScrollPoint id="aboutme"/>
+                <Gap/>
                 <AboutMe/>
                 <ScrollPoint id="skills"/>
                 <Skills/>
@@ -37,6 +38,7 @@ function App() {
                 <Projects/>
                 <ScrollPoint id="contact"/>
                 <Contact/>
+                <ScrollPoint/>
                 <Footer/>
             </Container>
         </>

@@ -1,14 +1,22 @@
 [
   {
     "lang": "React",
-    "detail": "React is one of the most popular JavaScript Library. There are lots of pros, so I've taught myself. I watched hundreds online tutorials and build few projects with React such as JK Sports Club."
+    "detail": "React is one of the most popular JavaScript Library. There are lots of pros, so I've taught myself. I read and watched hundreds online tutorials and build few projects with React such as JK Sports Club.",
+    "icon": "react-original-wordmark"
   },
   {
     "lang": "Node JS",
-    "detail": "Node JS is single thread and supports asynchronous which other backend language doesn't. Hence,.... "
+    "detail": "Node JS is single thread and supports asynchronous which other backend language doesn't. Hence,.... ",
+    "icon": "nodejs-original-wordmark"
   },
   {
     "lang": "Java",
-    "detail": "I've been studying Java for three semester in the college. I got a full mark of it. It helps me a lot to understand Object-oriented programming (OOP)"
+    "detail": "I've been studying Java for three semester in the college. I got a full mark of it. It helps me a lot to understand Object-oriented programming (OOP)",
+    "icon": "java-original-wordmark"
+  },
+  {
+    "lang": "Bootstrap",
+    "detail": "Very convenient tool to design websites quickly. I used it for most of my personal projects.",
+    "icon": "bootstrap-plain-wordmark"
   }
 ]

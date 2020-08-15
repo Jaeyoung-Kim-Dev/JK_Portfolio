@@ -2,17 +2,7 @@
   color: white;
 }
 
-.MyMargin {
-  margin-top: 100px;
-  margin-bottom: 200px;
-}
-
 .SectionTitle {
   text-align: center;
   margin: 50px;
-}
-
-.SubSectionTitle {
-  text-align: center;
-  margin: 30px 10px 10px;
 }
