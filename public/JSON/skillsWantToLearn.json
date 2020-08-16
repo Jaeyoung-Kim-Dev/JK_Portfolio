@@ -1,12 +1,12 @@
 [
     {
         "lang":"Angular",
-        "detail":"Another popular frontend language",
+        "detail":"Angular is a popular front-end language along with React. It's one of the languages I need to learn to target full-stack developers because some companies and projects are using it.",
         "icon": "angularjs-original-wordmark"
     },
     {
         "lang":"Python",
-        "detail":"machine learning",
+        "detail":"Python has recently been in the spotlight not only as a back-end language but also as a machine learning language. I would like to learn this for my career or personal purpose as soon as possible.",
         "icon": "python-original-wordmark"
     }
 ]

@@ -1,37 +1,37 @@
 [
     {
         "lang":"MongoDB",
-        "detail":"Document-oriented(JSON) database and NoSQL. Most of my personal projects are built by MongoDB.",
+        "detail":"MongoDB is Document-oriented(JSON) database and NoSQL. Most of my personal projects are built by MongoDB.",
         "icon":"mongodb-original-wordmark"
     },
     {
         "lang":"Oracle DBMS",
-        "detail":"Learned from how to design database to how to use it from the college. I got \"A+\". Also, I have basic knowledge of MySQL.",
+        "detail":"I learned from database design to usage in college. I got an A+. I also have a basic knowledge of MySQL.",
         "icon":"oracle-original"
     },
     {
         "lang":"Git",
-        "detail":"Designed for coordinating work among programmers, but it can be used to track changes in any set of files. Used it for all of my personal projects.",
+        "detail":"It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. It was used for all my personal projects.",
         "icon":"github-original-wordmark"
     },
     {
         "lang":"AWS",
-        "detail":"",
+        "detail":"Amazon Web Services (AWS) provides on-demand cloud computing platforms and APIs to companies and individuals. It is very fast and reliable for Web hosting, and is used to deploy my projects.",
         "icon":"amazonwebservices-original-wordmark"
     },
     {
         "lang":"Linux/Powershell",
-        "detail":"Learned basic commands from the college. I also use it in 'macOS Terminal'/'Windows Command Prompt' for NPM, Git and manage folder and file.",
+        "detail":"I learned basic commands in college. I also use it for NPM, Git, and folder and file management in MacOS Terminal and Windows Command Prompt.",
         "icon":"linux-original"
     },
     {
         "lang":"C",
-        "detail":"This is my first programing language to understand data type, function and class. I've done a 600 pages book about C to understand 'pointer'.",
+        "detail":"This is the first programming language in which I understand data types, functions and classes. I read a 600-page book about C to understand the concept of 'pointer'.",
         "icon":"c-line"
     },
     {
         "lang":"Hardware/Network",
-        "detail":"I was a senior computer service technician. I also learned how the networking system works from the college. I'm running a NAS(Network-attached storage) at home for 7 years, so I'm pretty knowledgeable in these.",
+        "detail":"I was a senior computer service technician for five years. I also learned how the networking system works in college. I've been running Network Attached Storage (NAS) at home for seven years, and I know pretty well about these.",
         "icon":"computer-pc-svgrepo-com"
     }
 ]
