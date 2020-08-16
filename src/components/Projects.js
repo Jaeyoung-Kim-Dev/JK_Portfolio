@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import {Card, Col, Row} from "react-bootstrap";
 import {FaExternalLinkAlt, FaGithub} from "react-icons/fa/index";
 import styled from "@emotion/styled/macro";
-/*import {Hover, DisplayOver, BigTitle, SubTitle, Paragraph, Background} from "../effects/HoverDisplay"*/
 
 const Projects = () => {
     const [myProjects, setMyProjects] = useState([]);
@@ -78,44 +77,48 @@ const Projects = () => {
     `
 
     return (
-        <div>
-            <h3 className="SectionTitle">Projects</h3>
+        <>
+            <div data-aos="fade-up" data-aos-delay="200">
+                <h3 className="SectionTitle">Projects</h3>
+            </div>
             <Row>
                 {myProjects.map((project, key) => (
                     <Col xs={12} md={6} key={key}>
-                        <Card style={{backgroundColor: "#1f324c", marginBottom: "25px"}}>
-                            <ProjectName>{project.name}</ProjectName>
-                            <Card.Img variant="top" src={require(`../photos/${project.pic}`)} fluid="true"/>
-                            <Background>
-                                <DisplayOver>
-                                    <Hover>
-                                        <Card.Body>
-                                            <SubTitle>
-                                                <Card.Text>
-                                                    {project.desc}
-                                                </Card.Text>
-                                            </SubTitle>
-                                            <br/>
-                                            <Paragraph>
-                                                <Card.Text>
-                                                    {project.lang}
-                                                </Card.Text>
-                                            </Paragraph>
-                                        </Card.Body>
-                                        <Card.Footer>
-                                            <LinkIcons>
-                                                <Card.Link href={`${project.git}`}><FaGithub/></Card.Link>
-                                                <Card.Link href={`${project.link}`}><FaExternalLinkAlt/></Card.Link>
-                                            </LinkIcons>
-                                        </Card.Footer>
-                                    </Hover>
-                                </DisplayOver>
-                            </Background>
-                        </Card>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <Card style={{backgroundColor: "#1f324c", marginBottom: "25px"}}>
+                                <ProjectName>{project.name}</ProjectName>
+                                <Card.Img variant="top" src={require(`../photos/${project.pic}`)} fluid="true"/>
+                                <Background>
+                                    <DisplayOver>
+                                        <Hover>
+                                            <Card.Body>
+                                                <SubTitle>
+                                                    <Card.Text>
+                                                        {project.desc}
+                                                    </Card.Text>
+                                                </SubTitle>
+                                                <br/>
+                                                <Paragraph>
+                                                    <Card.Text>
+                                                        {project.lang}
+                                                    </Card.Text>
+                                                </Paragraph>
+                                            </Card.Body>
+                                            <Card.Footer>
+                                                <LinkIcons>
+                                                    <Card.Link href={`${project.git}`}><FaGithub/></Card.Link>
+                                                    <Card.Link href={`${project.link}`}><FaExternalLinkAlt/></Card.Link>
+                                                </LinkIcons>
+                                            </Card.Footer>
+                                        </Hover>
+                                    </DisplayOver>
+                                </Background>
+                            </Card>
+                        </div>
                     </Col>
                 ))}
             </Row>
-        </div>
+        </>
     );
 }
 

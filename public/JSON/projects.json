@@ -2,7 +2,7 @@
   {
     "name": "Chat with Titanic",
     "pic": "chatwithtitanic.jpg",
-    "desc": "You can select a person and chat with people from my favourite movie Titanic.\nMultiple users can access this application and talk to each other in realtime.",
+    "desc": "You can pick people and chat with people in my favorite movie Titanic.Multiple users can access this application and communicate in real time.",
     "lang": "Node.JS | Express | Socket.IO | jQuery | Bootstrap | AWS",
     "git": "https://github.com/Jaeyoung-Kim-Dev/chatwithtitanic",
     "link": "http://ec2-3-136-83-195.us-east-2.compute.amazonaws.com/"

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from "@emotion/styled";
 import ListSkills from "./ListSkills";
 
@@ -11,7 +11,6 @@ const Skills = () => {
         margin: 20px;
         color: gold;   
     `;
-
 
     useEffect(() => {
         fetch('./JSON/skillsConfident.json')
@@ -27,15 +26,19 @@ const Skills = () => {
 
     return (
         <div>
-            <h3 className="SectionTitle">Skills</h3>
-
-            <SubTitle>What I am confident in:</SubTitle>
+            <div data-aos="fade-up" data-aos-delay="200">
+                <h3 className="SectionTitle">Skills</h3>
+            </div>
+            <div className="text-center" data-aos="fade-up" data-aos-delay="400"><small>Click or mouse over the skill
+                icons to view the details.</small></div>
+            <div data-aos="fade-up" data-aos-delay="600">
+                <SubTitle>What I am confident in:</SubTitle></div>
             <ListSkills skills={confident}/>
-
-            <SubTitle>What I learned:</SubTitle>
+            <div data-aos="fade-up" data-aos-delay="600">
+                <SubTitle>What I learned:</SubTitle></div>
             <ListSkills skills={learned}/>
-
-            <SubTitle>What I want to learn soon:</SubTitle>
+            <div data-aos="fade-up" data-aos-delay="600">
+                <SubTitle>What I want to learn soon:</SubTitle></div>
             <ListSkills skills={wantToLearn}/>
         </div>
     )
