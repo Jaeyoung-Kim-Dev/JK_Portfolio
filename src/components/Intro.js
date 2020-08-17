@@ -32,7 +32,7 @@ const Intro = () => {
         <Div>
             <div data-aos="fade-up">
                 <Orange>import </Orange>
-                <White>Hi <GiHand/> </White>
+                <White>Hi Hi<GiHand/> </White>
                 <Orange>from </Orange>
                 <White>Calgary <FaCanadianMapleLeaf/></White>
             </div>
