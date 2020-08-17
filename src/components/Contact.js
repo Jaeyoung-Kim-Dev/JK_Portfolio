@@ -17,13 +17,13 @@ const Contact = () => {
             <h3 className="SectionTitle">Contact</h3>
             </div>
             <br/><br/>
-                <div data-aos="fade-up" data-aos-delay="600">
+                <div data-aos="fade-up" data-aos-delay="400">
             <form>
                 <h2>Feel free to <Button href="mailto:jaeyoung.kim.dev@gmail.com?subject=Mail from Jaeyoung's Website&body=Hello, Jaeyoung!"><AiFillMail/> Email</Button> me <FaSmileWink/></h2>
             </form>
                 </div>
             <br/><br/>
-            <div data-aos="fade-up" data-aos-delay="800">
+            <div data-aos="fade-up" data-aos-delay="600">
             <span><StyledIcons href="https://github.com/Jaeyoung-Kim-Dev"><FaGithub/></StyledIcons></span>
             <span><StyledIcons href="https://www.linkedin.com/in/jaeyoung-kim-dev/"><FaLinkedin/></StyledIcons></span>
             <span><StyledIcons
