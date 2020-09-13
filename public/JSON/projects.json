@@ -5,7 +5,7 @@
     "desc": "You can pick people and chat with people in my favorite movie Titanic.Multiple users can access this application and communicate in real time.",
     "lang": "Node.JS | Express | Socket.IO | jQuery | Bootstrap | AWS",
     "git": "https://github.com/Jaeyoung-Kim-Dev/chatwithtitanic",
-    "link": "http://ec2-3-136-83-195.us-east-2.compute.amazonaws.com/"
+    "link": "http://64.137.190.135/"
   },
   {
     "name": "JK Sports Club",
