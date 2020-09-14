@@ -3,7 +3,7 @@
     "name": "Chat with Titanic",
     "pic": "chatwithtitanic.jpg",
     "desc": "You can pick people and chat with people in my favorite movie Titanic.Multiple users can access this application and communicate in real time.",
-    "lang": "Node.JS | Express | Socket.IO | jQuery | Bootstrap | AWS",
+    "lang": "Node.JS | Express | Socket.IO | MongoDB | jQuery | Bootstrap",
     "git": "https://github.com/Jaeyoung-Kim-Dev/chatwithtitanic",
     "link": "http://64.137.190.135/"
   },
@@ -11,7 +11,7 @@
     "name": "JK Sports Club",
     "pic": "jksportsclub.jpg",
     "desc": "This..",
-    "lang": "React | Node.JS | Express | Bootstrap | OracleCloud",
+    "lang": "React | Node.JS | Express | MongoDB | Bootstrap ",
     "git": "https://github.com/Jaeyoung-Kim-Dev/jksportsclub",
     "link": "http://ec2-3-136-83-195.us-east-2.compute.amazonaws.com/"
   }
