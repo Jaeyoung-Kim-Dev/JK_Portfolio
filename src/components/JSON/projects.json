@@ -2,14 +2,14 @@
   {
     "name": "Chat with Titanic",
     "desc": "You can select a person and chat with people from my favourite movie Titanic.\nMultiple users can access this application and talk to each other in realtime.",
-    "lang": "Node.JS  Express  Socket.IO  jQuery  Bootstrap",
+    "lang": "Node.JS  Express  Socket.IO  MongoDB  jQuery  Bootstrap",
     "git": "https://github.com/Jaeyoung-Kim-Dev/ChatWithTitanic",
     "link": "http://64.137.182.170/"
   },
   {
     "name": "JK Sports Club",
     "desc": "This..",
-    "lang": "React  Node.JS  Express  Bootstrap",
+    "lang": "React  Node.JS  Express  MongoDB  Bootstrap",
     "git": "https://github.com/Jaeyoung-Kim-Dev/JKSportsClub",
     "link": "http://64.137.182.168/"
   }
