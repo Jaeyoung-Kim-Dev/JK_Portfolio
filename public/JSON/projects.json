@@ -5,7 +5,7 @@
     "desc": "You can pick people and chat with people in my favorite movie Titanic.Multiple users can access this application and communicate in real time.",
     "lang": "Node.JS | Express | Socket.IO | MongoDB | jQuery | Bootstrap",
     "git": "https://github.com/Jaeyoung-Kim-Dev/chatwithtitanic",
-    "link": "http://64.137.182.170"
+    "link": "http://chatwithtitanic.jaeyoungkim.codes/"
   },
   {
     "name": "JK Sports Club",
@@ -13,6 +13,6 @@
     "desc": "This..",
     "lang": "React | Node.JS | Express | MongoDB | Bootstrap ",
     "git": "https://github.com/Jaeyoung-Kim-Dev/jksportsclub",
-    "link": "http://64.137.182.168/"
+    "link": "http://jksportsclub.jaeyoungkim.codes/"
   }
 ]
