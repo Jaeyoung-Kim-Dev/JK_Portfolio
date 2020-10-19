@@ -2,7 +2,7 @@
   {
     "name": "Chat with Titanic",
     "pic": "chatwithtitanic.jpg",
-    "desc": "You can pick people and chat with people in my favorite movie Titanic.Multiple users can access this application and communicate in real time.",
+    "desc": "You can pick people and chat with people in my favorite movie Titanic.\nMultiple users can access this application and communicate in real time.",
     "lang": "Node.JS | Express | Socket.IO | MongoDB | jQuery | Bootstrap",
     "git": "https://github.com/Jaeyoung-Kim-Dev/chatwithtitanic",
     "link": "http://chatwithtitanic.jaeyoungkim.codes/"
@@ -10,9 +10,18 @@
   {
     "name": "JK Sports Club",
     "pic": "jksportsclub.jpg",
-    "desc": "This..",
+    "desc": "This is about a sports club management and it's not a real website.\nThe website can do CRUD (Create, Read, Update and Delete).",
     "lang": "React | Node.JS | Express | MongoDB | Bootstrap ",
     "git": "https://github.com/Jaeyoung-Kim-Dev/jksportsclub",
     "link": "http://jksportsclub.jaeyoungkim.codes/"
+  },
+  {
+    "name": "Battleship Game",
+    "pic": "battleship.jpg",
+    "desc": "This is based on the battleship board game.\n You can remotely play this game with people.\n(You can see the speculation on the other side in real-time.)",
+    "lang": "Java (JavaFX | Thread | Socket | Serialization)",
+    "git": "https://github.com/Jaeyoung-Kim-Dev/Battleship-Game",
+    "link": "https://github.com/Jaeyoung-Kim-Dev/Battleship-Game"
   }
+
 ]
