@@ -31,7 +31,7 @@ const AboutMe = () => {
                                 href="https://www.sait.ca/programs-and-courses/full-time-studies/diplomas/information-technology">
                                 Southern Alberta Institute of Technology</Gold> in Calgary, AB, Canada now. This course
                             is
-                            really interesting, and I am really enjoying it! <strong>My GPA is 3.97</strong>.</p>
+                            really interesting, and I am really enjoying it! <strong>My GPA is 3.90</strong>.</p>
                         <p>I will do my best and be a great software developer!</p><br/>
                         <p>PS. The course ends in April 2021, and if you want to hire me, please feel free to contact
                             me.
